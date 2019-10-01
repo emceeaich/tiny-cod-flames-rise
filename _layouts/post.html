@@ -5,7 +5,7 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <section>
-  <img src="/public/images/{{ page.image }}" alt="{{ page.description }}">
+  <img src="{{ site.baseurl }}/public/images/{{ page.image }}" alt="{{ page.description }}">
 
   {{ content }}
 </section>
