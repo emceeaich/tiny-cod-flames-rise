@@ -18,8 +18,8 @@
 			<meta property="og:description" content="{{site.description}}">
 			{% endif %}
 			{% if page.image %}
-    			<meta property="og:image" content="/public/images/{{page.image}}">
-    			<meta name="twitter:image" content="/public/images/{{page.image}}">
+    			<meta property="og:image" content="{{ site.baseurl }}/public/images/{{page.image}}">
+    			<meta name="twitter:image" content="{{ site.baseurl }}/public/images/{{page.image}}">
   			{% endif %}
 			<meta name="twitter:card" content="summary">
 			<meta name="twitter:creator" content="@triagegirl">
@@ -27,7 +27,7 @@
 			<link rel="me" href="https://micro.blog/emma" title="micro.blog">
 			<link rel="me" href="https://emmah.net/" title="emmah.net">
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/public/css/main.css">
+			<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/main.css">
 		</head>
 		<body>
 			<div class="container">
