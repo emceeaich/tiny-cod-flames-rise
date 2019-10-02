@@ -8,4 +8,4 @@ description: A cod fish in a pentagram, surrounded by the words of power, 'Hail 
 
 When I read this prompt, my mind jumped to visions of heavy metal and Satanic fish. I make no apologies.
 
-This prompt is also the name of this project on GitHub.
+This prompt is also [the name of this project on GitHub](https://github.com/emceeaich/tiny-code-flames-rise).
